@@ -1,0 +1,89 @@
+#main-header {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  font-style: italic;
+  color: rgb(61, 27, 26);
+}
+#main-header h1 {
+  text-shadow: 1px 2px 10px grey;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.input-section {
+  margin: 40px 0 30px 0px;
+}
+#input-field {
+  width: 400px;
+  font-size: 20px;
+}
+#input-field {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 20px;
+}
+.card-image {
+  padding: 50px;
+}
+#input-field:focus {
+  outline: none;
+}
+#no-phone-found {
+  margin: 40px;
+  color: rgb(252, 99, 44);
+}
+@media screen and (max-width: 992px) {
+  #input-field {
+    width: 300px;
+    font-size: 18px;
+  }
+  .card-image {
+    padding: 20px;
+  }
+  #main-header h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .card-image {
+    padding: 50px;
+  }
+  #main-header h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-image {
+    padding: 20px;
+  }
+  #input-field {
+    width: 200px;
+    font-size: 16px;
+  }
+  #main-header h1 {
+    font-size: 20px;
+  }
+  .input-section {
+    margin: 40px 0 10px 0px;
+    display: block !important;
+  }
+  .input-section button {
+    margin: 10px 0px !important;
+  }
+}
+
+/* phone specification */
+.phone-specification h2 {
+  font-size: 18px;
+  color: rgb(166, 25, 0);
+  text-shadow: 2px 2px 5px gray;
+  border-bottom: 1px solid rgb(166, 25, 0);
+  padding-bottom: 5px;
+}
+.phone-title {
+  color: rgb(6, 6, 47);
+  margin-left: auto;
+  text-shadow: 4px 4px 5px gray;
+}
